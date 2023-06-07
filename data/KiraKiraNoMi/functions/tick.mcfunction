@@ -1,1 +1,0 @@
-execute as @a[nbt={SelectedItem:{tag:{display:{Name:'{"text":"Kira Kira No Mi","italic":false}',Lore:['{"text":"devil_fruit"}']}}}}] run effect give @s resistance 9999 10
