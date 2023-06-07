@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "consume": {
+          "trigger": "minecraft:consume_item",
+          "conditions": {
+            "item": {
+              "items": [
+                "minecraft:apple",
+                "minecraft:melon",
+                "minecraft:sweet_berries",
+                "minecraft:glow_berries",
+                "minecraft:chorus_fruit"
+              ],
+              "nbt":"{DevilFruit:1b}"
+            }
+          }
+        }
+    },
+    "rewards": {
+      "function": "kirakiranomi:check_devil_fruit"
+    }
+  }
+  
