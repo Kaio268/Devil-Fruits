@@ -1,0 +1,29 @@
+{
+    "criteria": {
+      "swimming": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "damage": {
+            "dealt": {
+              "min": 0,
+              "max": 2
+            },
+            "source_entity": {
+              "type": "minecraft:player",
+              "equipment": {
+                "mainhand": {
+                  "items": [
+                    "minecraft:arrow"
+                  ],
+                  "nbt": "{move:brilliant_punk}"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "devilfruitsalad:combat/brilliant_punk"
+    }
+  }  

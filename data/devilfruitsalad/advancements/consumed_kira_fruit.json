@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "consumed_kira_fruit": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:apple"
+            ],
+            "nbt": "{CustomModelData:71220001,DevilFruit:1b}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "devilfruitsalad:consumed_kira"
+    }
+  }
+  
